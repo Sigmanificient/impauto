@@ -7,11 +7,12 @@ pip install impauto
 ```
 
 ## How to use it ?
+The Basic way to use this module
 ```python
-import impauto
+from impauto import Automated
 
 # Each argument passed will be enter as a str to the input function.
-impauto.Automated(154) 
+Automated(154) 
 
 
 # use your script as normal
@@ -27,6 +28,25 @@ def syracuse(x):
 n = int(input("Enter a number: "))
 print(syracuse(n))
 ```
+You can also hide terminal input messages
+```python
+from impauto import Automated
+
+# Each argument passed will be enter as a str to the input function.
+Automated(1, 2, 3, show_message=False)
+```
+
+By default, It will raise a exception if there is more input than value given.
+To make input repeats indefinitely, you can use this code
+```python
+from impauto import Automated
+
+# Each argument passed will be enter as a str to the input function.
+Automated("a", "b", forever=True)
+```
+
+### Thanks for using Impauto !
+
 
 ## License
 © 2020 copyright Edhyjox

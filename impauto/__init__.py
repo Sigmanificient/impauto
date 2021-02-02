@@ -4,20 +4,21 @@ author = "Edhyjox"
 version = "1.0.0"
 
 
-class automated:
+class Automated:
 
     def __init__(self, *args, show_message=True, forever=False):
-        self.values = self.__generate_values(args) if forever else iter(args)
+        self.values = self.__generate_values(args, forever)
         self.show_message = show_message
 
         builtins.input = self.__input__
 
     @staticmethod
-    def __generate_values(values):
+    def __generate_values(values, forever):
         values = map(str, values)
-        while True:
+        while forever:
             for value in values:
-                yield str(value)
+                yield value
+        raise StopIteration("No more input values given. Make sure to have enough values passed")
 
     def __input__(self, __prompt=None):
         value = next(self.values)
