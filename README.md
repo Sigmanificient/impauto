@@ -1,4 +1,5 @@
 # Impauto
+###version 1.0.1
 *Make your life easier with automated inputs*
 
 ## Installation
