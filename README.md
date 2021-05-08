@@ -1,4 +1,4 @@
-# Impauto
+# Impauto [![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/impauto/badge)](https://www.codefactor.io/repository/github/sigmanificient/impauto)
 *Make your life easier with automated inputs*
 
 ## Installation
