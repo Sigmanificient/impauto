@@ -15,7 +15,11 @@ class Automated:
     @staticmethod
     def __generate_values(values, forever):
         values = map(str, values)
-        while forever:
+        once = 1
+
+        while forever or once:
+            once -= 1
+
             for value in values:
                 yield value
         raise StopIteration("No more input values given. Make sure to have enough values passed")
