@@ -1,4 +1,10 @@
-# Impauto [![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/impauto/badge)](https://www.codefactor.io/repository/github/sigmanificient/impauto)
+# Impauto 
+[![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/impauto/badge)](https://www.codefactor.io/repository/github/sigmanificient/impauto)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sigmanificient/impauto)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/impauto)
+![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/impauto)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sigmanificient/impauto)
+
 *Make your life easier with automated inputs*
 
 ## Installation
