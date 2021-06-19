@@ -1,18 +1,20 @@
 # Impauto 
-[![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/impauto/badge)](https://www.codefactor.io/repository/github/sigmanificient/impauto)
+![PyPI](https://img.shields.io/pypi/v/impauto)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/impauto)
+![PyPI - Format](https://img.shields.io/pypi/format/impauto)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/impauto)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sigmanificient/impauto)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/impauto)
-![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/impauto)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Sigmanificient/impauto)
 
 *Make your life easier with automated inputs*
 
 ## Installation
-```
+```cmd
 pip install impauto
 ```
 
-## How to use it ?
+## How to use
 The Basic way to use this module
 ```python
 from impauto import Automated
@@ -51,7 +53,7 @@ from impauto import Automated
 Automated("a", "b", forever=True)
 ```
 
-### Thanks for using Impauto !
+### Thanks for using Impauto
 
 
 ## License
