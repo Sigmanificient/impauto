@@ -1,4 +1,7 @@
 # Impauto 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/44cbc17d1bfe4566b3f305ef8fe5d106)](https://app.codacy.com/gh/Sigmanificient/impauto?utm_source=github.com&utm_medium=referral&utm_content=Sigmanificient/impauto&utm_campaign=Badge_Grade_Settings)
+
 ![PyPI](https://img.shields.io/pypi/v/impauto)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/impauto)
 ![PyPI - Format](https://img.shields.io/pypi/format/impauto)
