@@ -55,7 +55,6 @@ Automated("a", "b", forever=True)
 
 ### Thanks for using Impauto
 
-
 ## License
 © 2020 copyright Edhyjox
 

@@ -1,6 +1,4 @@
-"""
-A python package to handle automatically input for faster development.
-"""
+"""A python package to handle automatically input for faster development."""
 import builtins
 
 author = "Sigmanificient"
@@ -28,7 +26,7 @@ class Automated:
         raise StopIteration("No more input values given. Make sure to have enough values passed")
 
     def __input__(self, __prompt=None):
-
+        """Method that will replace the builtin input."""
         value = next(self.values)
 
         if self.show_message:
