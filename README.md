@@ -1,5 +1,6 @@
 # Impauto 
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Sigmanificient/impauto/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Sigmanificient/impauto/?branch=master)
 ![PyPI](https://img.shields.io/pypi/v/impauto)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/impauto)
 ![PyPI - Format](https://img.shields.io/pypi/format/impauto)
