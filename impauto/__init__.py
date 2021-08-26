@@ -9,7 +9,11 @@ version: str = "1.0.1"
 
 class Automated:
 
-    def __init__(self, *args, show_message: bool = True, forever: bool = False) -> None:
+    def __init__(
+            self,
+            *args, show_message: bool = True,
+            forever: bool = False
+    ) -> None:
         """Create a value generator and replace the builtin input."""
         self.values: Generator = self.__generate_values(args, forever)
         self.show_message: bool = show_message
@@ -25,7 +29,10 @@ class Automated:
             yield from values
             once: int = 0
 
-        raise StopIteration("No more input values given. Make sure to have enough values passed")
+        raise StopIteration(
+            "No more input values given. "
+            "Make sure to have enough values passed"
+        )
 
     def __input__(self, __prompt: Optional[str] = None) -> str:
         """Method that will replace the builtin input."""
