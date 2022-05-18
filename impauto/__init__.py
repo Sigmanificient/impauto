@@ -41,4 +41,4 @@ class Automated:
         if self.show_message:
             print(f"[Automated] {__prompt}{value}")
 
-        return str(value)
+        return value
